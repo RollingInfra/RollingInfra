@@ -1,0 +1,16 @@
+{
+  "extends": "@rollinginfra/tsconfig",
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "ES2020",
+    "incremental": true,
+    "composite": true,
+    "rootDir": "src",
+    "tsBuildInfoFile": "lib/.tsbuildinfo",
+    "lib": ["ES2020"]
+  },
+  "include": ["src"],
+  "references": [
+    {"path": "../types"},
+  ],
+}
