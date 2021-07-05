@@ -19,6 +19,7 @@
     {"path": "./packages/state-store-google-firestore"},
     {"path": "./packages/state-store-google-objects"},
     {"path": "./packages/state-store-local-file-system"},
+    {"path": "./packages/state-store-namespace"},
     {"path": "./packages/types"},
   ]
 }
