@@ -1,0 +1,24 @@
+{
+  "extends": "@rollinginfra/tsconfig",
+  "compilerOptions": {
+    "outDir": "lib",
+    "incremental": true,
+    "rootDir": "src",
+    "tsBuildInfoFile": "lib/.tsbuildinfo",
+    "lib": ["DOM", "ES2020"]
+  },
+  "files": [],
+  "references": [
+    {"path": "./packages/abort-controller"},
+    {"path": "./packages/abort-error"},
+    {"path": "./packages/abort-signal-utils"},
+    {"path": "./packages/lock-state-store"},
+    {"path": "./packages/secret-encryption-fake"},
+    {"path": "./packages/secret-encryption-google-kms"},
+    {"path": "./packages/secret-store-encrypted"},
+    {"path": "./packages/state-store-google-firestore"},
+    {"path": "./packages/state-store-google-objects"},
+    {"path": "./packages/state-store-local-file-system"},
+    {"path": "./packages/types"},
+  ]
+}

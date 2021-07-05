@@ -1,0 +1,36 @@
+{
+  "name": "@rollinginfra/state-store-google-firestore",
+  "version": "0.0.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@databases/validate-unicode": "^1.0.0",
+    "@google-cloud/firestore": "^4.9.4",
+    "@rollinginfra/types": "^0.0.0",
+    "funtypes": "^3.0.1",
+    "generate-alphabetic-name": "^1.0.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
