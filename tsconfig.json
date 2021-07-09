@@ -16,6 +16,7 @@
     {"path": "./packages/secret-encryption-fake"},
     {"path": "./packages/secret-encryption-google-kms"},
     {"path": "./packages/secret-store-encrypted"},
+    {"path": "./packages/simple-proxy-object"},
     {"path": "./packages/state-store-google-firestore"},
     {"path": "./packages/state-store-google-objects"},
     {"path": "./packages/state-store-local-file-system"},
